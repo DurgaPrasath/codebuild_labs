@@ -5,6 +5,7 @@ env:
 phases:
   build:
     commands:
+      - which go
       - echo Build started on `date`
       - echo Compiling the Go code...
       - mkdir ./lab_01/out
