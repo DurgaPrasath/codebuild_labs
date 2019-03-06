@@ -2,6 +2,6 @@
 for i in darwin linux windows
 do
 GOOS="$i"
-mkdir lab_01/out/$GOOS
-go build lab_01/hello.go > lab_01/out/$GOOS/
+mkdir -p  ./lab_01/out/$GOOS
+go build ./lab_01/hello.go > ./lab_01/out/$GOOS/
 done 
