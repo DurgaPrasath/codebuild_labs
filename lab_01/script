@@ -1,4 +1,5 @@
 #!/bin/sh
+find ./*
 for i in darwin linux windows
 do
 GOOS="$i"

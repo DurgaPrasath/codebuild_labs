@@ -7,7 +7,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Go code...
-      - mkdir lab_01/out
+      - mkdir ./lab_01/out
       - ./lab_01/script
 artifacts:
   files:
