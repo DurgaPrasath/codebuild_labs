@@ -2,8 +2,6 @@ version: 0.2
 env:
   variables:
     GOOS: "darwin"
-  parameter-store:
-    GOOS: "/codebuild-nht/goos"
 phases:
   build:
     commands:
@@ -13,4 +11,4 @@ phases:
       - make -f ./lab_01/Makefile
 artifacts:
   files:
-    - '**/*'
+    - lab_01/**/*
