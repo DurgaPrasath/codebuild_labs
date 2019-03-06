@@ -8,7 +8,7 @@ phases:
       - echo Build started on `date`
       - echo Compiling the Go code...
       - mkdir ./lab_01/out
-      - ./lab_01/script
+      - sudo ./lab_01/script
 artifacts:
   files:
     - '**/*'
