@@ -4,5 +4,6 @@ for i in darwin linux windows
 do
 GOOS="$i"
 mkdir -p  ./lab_01/out/$GOOS
-go build ./lab_01/hello.go > ./lab_01/out/$GOOS/
+find ./*
+go build ./lab_01/hello.go -o ./lab_01/out/$GOOS/hello
 done 
