@@ -9,8 +9,8 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Go code...
+      - echo $GOOS
       - make -f ./lab_01/Makefile
-      - go build ./lab_01/hello.go
 artifacts:
   files:
     - '**/*'
